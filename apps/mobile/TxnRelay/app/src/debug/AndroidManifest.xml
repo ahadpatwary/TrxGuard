@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Debug builds only: allow http:// endpoints (e.g. a LAN dev server). Release builds are HTTPS-only. -->
+    <application android:networkSecurityConfig="@xml/network_security_config_debug" />
+
+</manifest>
